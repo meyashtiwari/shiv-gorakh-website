@@ -1,13 +1,18 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import 'animate.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages';
+import ContactPage from './pages/contact';
 
 function App() {
-  return (
-    <Router>
-     <Navbar />
-    </Router>
-  );
+	return (
+		<Router>
+			<Switch>
+				<Route path="/" component={Home} exact />
+				<Route path="/contact" component={ContactPage} exact />
+			</Switch>
+		</Router>
+	);
 }
 
 export default App;
