@@ -1,5 +1,4 @@
 import React from 'react';
-import { animateScroll as scroll } from 'react-scroll';
 import {
 	SidebarContainer,
 	Icon,
@@ -48,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						duration={500}
 						spy={true}
 						exact="true"
-						offset={0}
+						offset={-80}
 					>
 						Our Team
 					</SidebarLink>
@@ -59,9 +58,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 						duration={500}
 						spy={true}
 						exact="true"
-						offset={0}
+						offset={-79}
 					>
-						Services
+						Why Us?
 					</SidebarLink>
 				</SidebarMenu>
 				<SideBtnWrap>

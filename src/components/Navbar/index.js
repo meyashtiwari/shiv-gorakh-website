@@ -72,7 +72,7 @@ const Navbar = ({ toggle }) => {
 								duration={500}
 								spy={true}
 								exact="true"
-								offset={0}
+								offset={-90}
 							>
 								Our Team
 							</NavLinks>
@@ -84,9 +84,9 @@ const Navbar = ({ toggle }) => {
 								duration={500}
 								spy={true}
 								exact="true"
-								offset={0}
+								offset={-80}
 							>
-								Services
+								Why Us?
 							</NavLinks>
 						</NavItem>
 						<NavBtn>

@@ -13,7 +13,7 @@ const Services = ({ servicesData }) => {
 	return (
 		<>
 			<ServicesContainer id="services">
-				<ServicesH1>Our Services</ServicesH1>
+				<ServicesH1>Why choose us?</ServicesH1>
 				<ServicesWrapper>
 					{servicesData.map((data, index) => {
 						return (

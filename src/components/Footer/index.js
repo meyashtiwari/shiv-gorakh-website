@@ -56,8 +56,8 @@ const Footer = () => {
 					<SocialMediaWrap>
 						<SocialLogo to="/">ShivGorakh</SocialLogo>
 						<WebsiteRights>
-							SHIV GORAKH BUILDTECH PRIVATE LIMITED &#169;{' '}
-							{new Date().getFullYear()} | All rights reserved.
+							&#169; 2016 - {new Date().getFullYear()} SHIV GORAKH BUILDTECH PVT
+							LTD.
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink href="/" target="_blank" aria-label="Facebook">

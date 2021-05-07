@@ -4,10 +4,12 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import InfoSection from '../components/InfoSection';
 import Services from '../components/Services';
+import Team from '../components/Team';
+import Footer from '../components/Footer';
 import { SliderData } from '../data/SliderData';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../data/InfoData';
 import { ServicesData } from '../data/ServicesData';
-import Footer from '../components/Footer';
+import { TeamData } from '../data/TeamData';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +27,7 @@ const Home = () => {
 			<InfoSection {...homeObjTwo} />
 			<InfoSection {...homeObjThree} />
 			<Services servicesData={ServicesData} />
+			<Team teamData={TeamData} />
 			<Footer />
 		</>
 	);
