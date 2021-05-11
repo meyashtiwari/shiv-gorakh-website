@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						About
 					</SidebarLink>
 					<SidebarLink
-						to="projects"
+						to="project"
 						onClick={toggle}
 						smooth={true}
 						duration={500}
@@ -39,17 +39,6 @@ const Sidebar = ({ isOpen, toggle }) => {
 						offset={0}
 					>
 						Our Projects
-					</SidebarLink>
-					<SidebarLink
-						to="team"
-						onClick={toggle}
-						smooth={true}
-						duration={500}
-						spy={true}
-						exact="true"
-						offset={-80}
-					>
-						Our Team
 					</SidebarLink>
 					<SidebarLink
 						to="services"
@@ -61,6 +50,17 @@ const Sidebar = ({ isOpen, toggle }) => {
 						offset={-79}
 					>
 						Why Us?
+					</SidebarLink>
+					<SidebarLink
+						to="team"
+						onClick={toggle}
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact="true"
+						offset={-80}
+					>
+						Our Team
 					</SidebarLink>
 				</SidebarMenu>
 				<SideBtnWrap>

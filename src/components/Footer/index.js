@@ -23,32 +23,22 @@ const Footer = () => {
 				<FooterLinksContainer>
 					<FooterLinksWrapper>
 						<FooterLinkItems>
-							<FooterLinkTitle>About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/sigin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
+							<FooterLinkTitle>CORPORATE OFFICE</FooterLinkTitle>
+							<FooterLink to="/signin">
+								A-10, 3rd floor, Main Road, Village Ghazipur, East Delhi 110096
+							</FooterLink>
+							<FooterLink to="/sigin">+91-7017371734</FooterLink>
+							<FooterLink to="/signin">sales@shivgorakh.com</FooterLink>
 						</FooterLinkItems>
 						<FooterLinkItems>
-							<FooterLinkTitle>About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/sigin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
+							<FooterLinkTitle>USEFUL INFORMATION</FooterLinkTitle>
+							<FooterLink to="/signin">Our Vision</FooterLink>
+							<FooterLink to="/sigin">Why Choose Us</FooterLink>
+							<FooterLink to="/signin">Privacy Policy</FooterLink>
 						</FooterLinkItems>
 						<FooterLinkItems>
-							<FooterLinkTitle>About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/sigin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
-						</FooterLinkItems>
-						<FooterLinkItems>
-							<FooterLinkTitle>About Us</FooterLinkTitle>
-							<FooterLink to="/signin">How it works</FooterLink>
-							<FooterLink to="/sigin">Testimonials</FooterLink>
-							<FooterLink to="/signin">Careers</FooterLink>
-							<FooterLink to="/signin">Terms of Service</FooterLink>
+							<FooterLinkTitle>HELP AND SUPPORT</FooterLinkTitle>
+							<FooterLink to="/signin">Contact Us</FooterLink>
 						</FooterLinkItems>
 					</FooterLinksWrapper>
 				</FooterLinksContainer>
@@ -56,8 +46,7 @@ const Footer = () => {
 					<SocialMediaWrap>
 						<SocialLogo to="/">ShivGorakh</SocialLogo>
 						<WebsiteRights>
-							&#169; 2016 - {new Date().getFullYear()} SHIV GORAKH BUILDTECH PVT
-							LTD.
+							&#169; {new Date().getFullYear()} SHIV GORAKH BUILDTECH PVT LTD.
 						</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink href="/" target="_blank" aria-label="Facebook">

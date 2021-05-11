@@ -1,7 +1,7 @@
 export const TeamData = [
 	{
 		image: require('../images/avatar1.svg').default,
-		name: 'Amar Vashishth',
+		name: 'Amar Sharma',
 		position: '(Director)',
 	},
 	{

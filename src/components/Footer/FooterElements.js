@@ -36,9 +36,9 @@ export const FooterLinkItems = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin: 16px;
+	margin: 16px 5em;
 	text-align: left;
-	width: 160px;
+	width: 200px;
 	box-sizing: border-box;
 	color: #fff;
 
@@ -61,7 +61,7 @@ export const FooterLink = styled(Link)`
 	font-size: 14px;
 
 	&:hover {
-		color: #01bf71;
+		color: #ffd462;
 		transition: 0.3s ease-out;
 	}
 `;
@@ -93,6 +93,10 @@ export const SocialLogo = styled(Link)`
 	align-items: center;
 	margin-bottom: 16px;
 	font-weight: bold;
+
+	&:hover {
+		color: #ffd462;
+	}
 `;
 
 export const WebsiteRights = styled.small`

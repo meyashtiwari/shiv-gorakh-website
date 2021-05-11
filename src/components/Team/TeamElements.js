@@ -24,7 +24,7 @@ export const TeamWrapper = styled.div`
 
 export const TeamHeading = styled.h1`
 	color: #000d1a;
-	margin-bottom: 50px;
+	margin-bottom: 64px;
 	align-self: center;
 	font-size: 2.5rem;
 

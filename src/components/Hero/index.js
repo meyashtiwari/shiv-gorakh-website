@@ -31,7 +31,7 @@ const Hero = ({ slides }) => {
 			setCurrent((current) => (current === length - 1 ? 0 : current + 1));
 		};
 
-		timeout.current = setTimeout(nextSlide, 5000);
+		timeout.current = setTimeout(nextSlide, 6000);
 
 		return function () {
 			if (timeout.current) {
@@ -53,10 +53,6 @@ const Hero = ({ slides }) => {
 		}
 		setCurrent(current === 0 ? length - 1 : current - 1);
 	};
-
-	if (!Array.isArray(slides) || slides.length <= 0) {
-		return null;
-	}
 
 	return (
 		<HeroSection>
