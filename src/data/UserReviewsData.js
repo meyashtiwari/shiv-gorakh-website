@@ -27,6 +27,6 @@ export const UserReviewsData = [
 	{
 		name: 'Dr. Praveen Gupta',
 		review:
-			'It was a stroke of luck that helped us find the perfect collaborators. Prithu’s professionalism, transparency and vision has really impressed us',
+			'It was a stroke of luck that helped us find the perfect collaborators. ShivGorakh’s professionalism, transparency and vision has really impressed us.',
 	},
 ];

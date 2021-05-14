@@ -83,35 +83,51 @@ export const SocialMediaWrap = styled.div`
 	}
 `;
 
-export const SocialLogo = styled(Link)`
-	color: #fff;
-	justify-self: start;
-	cursor: pointer;
-	text-decoration: none;
-	font-size: 1.5rem;
-	display: flex;
-	align-items: center;
-	margin-bottom: 16px;
-	font-weight: bold;
-
-	&:hover {
-		color: #ffd462;
-	}
-`;
-
 export const WebsiteRights = styled.small`
 	color: #fff;
-	margin-bottom: 16px;
+	margin-bottom: 5px;
+	font-weight: bold;
+
+	@media screen and (max-width: 420px) {
+		margin: 15px 0 0 0;
+		text-align: center;
+	}
 `;
 
 export const SocialIcons = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 240px;
+	width: 150px;
 `;
 
 export const SocialIconLink = styled.a`
 	color: #fff;
 	font-size: 24px;
+`;
+
+export const LinkA = styled.a`
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+	font-size: 14px;
+	margin-left: 1em;
+
+	&:hover {
+		color: #ffd462;
+		transition: 0.3s ease-out;
+	}
+`;
+
+export const FooterText = styled.p`
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+	font-size: 14px;
+	margin-left: 1em;
+`;
+
+export const Icon = styled.div`
+	display: flex;
+	width: 320px;
 `;
