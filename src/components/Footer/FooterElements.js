@@ -42,7 +42,7 @@ export const FooterLinkItems = styled.div`
 	box-sizing: border-box;
 	color: #fff;
 
-	@media screen and (max-width: 420px) {
+	@media screen and (max-width: 480px) {
 		margin: 0;
 		padding: 10px;
 		width: 100%;
@@ -88,7 +88,7 @@ export const WebsiteRights = styled.small`
 	margin-bottom: 5px;
 	font-weight: bold;
 
-	@media screen and (max-width: 420px) {
+	@media screen and (max-width: 480px) {
 		margin: 15px 0 0 0;
 		text-align: center;
 	}
