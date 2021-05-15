@@ -22,9 +22,9 @@ export const ProjectsData = [
 		description:
 			'Shiv Gorakh Buildtech Pvt. Ltd. now focuses more attention in drainage\
         construction. Company has recently agreement with Universal Contractor &\
-        Engineers Pvt. Ltd. working in drainage system of pocket –C for residential\
-        Sect-17 yeada, tender ref No- YEA/GM(PROJECT)2020/374 Dt- 25.02.2020,\
-        Tender Id-2020_YEIDA_442518, LOA Letter No- YEIDA/SM/WC-4/418/2020\
-        Dt-08.06.2020,',
+        Engineers Pvt. Ltd. working in drainage system of pocket:– C for residential\
+        Sect-17 Yeida, tender ref No:- YEA/GM(PROJECT)2020/374 Dt:- 25.02.2020,\
+        Tender Id-2020_YEIDA_442518, LOA Letter No:- YEIDA/SM/WC-4/418/2020\
+        Dt:- 08.06.2020.',
 	},
 ];
