@@ -1,15 +1,17 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
+import ContactUsForm from '../components/ContactUsForm';
+import Navbar2 from '../components/Navbar2';
 
 const ContactPage = () => {
 	return (
-		<div>
-			<Navbar />
-			<HeroSection />
+		<>
+			<Navbar2 />
+			<HeroSection heading="Contact Us" />
+			<ContactUsForm />
 			<Footer />
-		</div>
+		</>
 	);
 };
 

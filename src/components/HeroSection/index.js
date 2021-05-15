@@ -1,10 +1,10 @@
 import React from 'react';
 import { HeroContainer, HeroHeading } from './HeroSectionElements';
 
-const HeroSection = () => {
+const HeroSection = ({ heading }) => {
 	return (
 		<HeroContainer>
-			<HeroHeading>Contact Us</HeroHeading>
+			<HeroHeading>{heading}</HeroHeading>
 		</HeroContainer>
 	);
 };

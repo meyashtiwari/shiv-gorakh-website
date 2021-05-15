@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						About
 					</SidebarLink>
 					<SidebarLink
-						to="project"
+						to="projects"
 						onClick={toggle}
 						smooth={true}
 						duration={500}

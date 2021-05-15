@@ -16,7 +16,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-	id: 'project',
+	id: 'projects',
 	lightBg: true,
 	lightText: false,
 	darkText: true,

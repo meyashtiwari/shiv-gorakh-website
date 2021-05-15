@@ -67,7 +67,7 @@ const Hero = ({ slides }) => {
 										<h1>{slide.title}</h1>
 										<HeroBtnWrapper>
 											<Button
-												to="contact"
+												to="/contact"
 												onMouseEnter={onHover}
 												onMouseLeave={onHover}
 											>
