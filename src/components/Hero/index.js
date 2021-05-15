@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '../ButtonElements';
+import { Slide } from 'react-awesome-reveal';
 
 import {
 	HeroSection,
@@ -64,7 +65,9 @@ const Hero = ({ slides }) => {
 								<HeroSlider>
 									<HeroImage src={slide.image} alt={slide.alt} />
 									<HeroContent>
-										<h1>{slide.title}</h1>
+										<Slide duration={1000} direction="down">
+											<h1>{slide.title}</h1>
+										</Slide>
 										<HeroBtnWrapper>
 											<Button
 												to="/contact"

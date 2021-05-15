@@ -79,8 +79,6 @@ export const HeroContent = styled.div`
 		text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 		text-align: center;
 		margin-bottom: 0.8rem;
-		animation: fadeInDown;
-		animation-duration: 1.5s;
 	}
 `;
 
